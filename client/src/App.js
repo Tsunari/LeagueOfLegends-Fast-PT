@@ -1,9 +1,14 @@
 import React from 'react';
+import Navbar from './components/Navbar';
+import ChampionSelector from './components/ChampionSelector';
+import ComboArea from './components/ComboArea';
 
 function App() {
   return (
     <div className="App">
-      <h1>League of Legends Combo Trainer</h1>
+      <Navbar />
+      <ChampionSelector />
+      <ComboArea />
     </div>
   );
 }
